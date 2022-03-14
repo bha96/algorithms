@@ -127,7 +127,7 @@ public abstract class MyQueueTestTemplate {
 
         int n = 1_000;
 
-        for(int i=0; i< n; i++){
+        for(int i=0; i < n; i++){
             queue.enqueue(i);
             queue.enqueue(i);
             queue.dequeue();

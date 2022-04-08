@@ -31,7 +31,7 @@ public class ComputationExampleTraditional implements ComputationExample{
             }
 
             for(Author author : authors){
-                if(author.getName() == null || author.getSurname()==null){
+                if(author.getName() == null || author.getSurname() == null){
                     continue;
                 }
 

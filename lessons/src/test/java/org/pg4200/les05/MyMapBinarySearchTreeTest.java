@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class MyMapBinarySearchTreeTest extends MyMapTestTemplate {
 
 
-    protected <K extends Comparable<K>, V> MyMapTreeBased<K, V> getTreeInstance() {
+    protected <K extends Comparable<K>, V> MyMapBinarySearchTree<K,V> getTreeInstance() {
         return new MyMapBinarySearchTree<>();
     }
 

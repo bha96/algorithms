@@ -1,15 +1,11 @@
-package org.pg4200.sol05;
+package org.pg4200.ex05;
 
-import org.pg4200.les05.*;
+import org.pg4200.les05.MyMapBinarySearchTreeTest;
 
-/**
- * Created by arcuri82 on 30-Apr-18.
- */
 public class BinaryTreeLeftMaxDeleteTest extends MyMapBinarySearchTreeTest {
 
     @Override
     protected <K extends Comparable<K>, V> BinaryTreeLeftMaxDelete getTreeInstance() {
         return new BinaryTreeLeftMaxDelete<>();
     }
-
 }

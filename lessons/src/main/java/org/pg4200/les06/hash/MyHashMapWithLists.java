@@ -53,7 +53,7 @@ public class MyHashMapWithLists<K,V> implements MyHashMap<K,V> {
 
         List<Entry> list = data[i];
 
-        for(int j=0; j<list.size(); j++){
+        for(int j=0; j < list.size(); j++){
             Entry entry = list.get(j);
             if(key.equals(entry.key)){
                 entry.value = value;
